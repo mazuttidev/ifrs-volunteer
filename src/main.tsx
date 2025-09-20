@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import LoginPage from './pages/LoginPage'
-
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <LoginPage />
-  </StrictMode>,
-)
-=======
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
@@ -20,4 +8,3 @@ createRoot(document.getElementById('root')!).render(
         <App />
     </StrictMode>
 );
->>>>>>> 4f63089 (feat: criação de navbar + esqueleto das páginas)
