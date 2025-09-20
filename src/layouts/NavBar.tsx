@@ -28,7 +28,7 @@ export function Navbar() {
                         Ranking
                     </Link>
                     <Link to="/login" className="hover:text-primary">
-                        Entrar
+                        Minha conta
                     </Link>
                 </div>
 
