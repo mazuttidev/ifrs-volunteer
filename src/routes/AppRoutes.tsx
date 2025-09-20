@@ -6,12 +6,13 @@ import HowToParticipate from "@/pages/HowToParticipate";
 import Ranking from "@/pages/Ranking";
 import Login from "@/pages/Login";
 import NotFound from "@/pages/NotFound";
+import { Footer } from "@/layouts/Footer";
 
 export default function AppRoutes() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div>
+      <div className="pt-6 max-w-6xl mx-auto">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/actions" element={<Actions />} />
@@ -21,6 +22,7 @@ export default function AppRoutes() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 }
