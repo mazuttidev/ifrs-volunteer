@@ -16,7 +16,12 @@
     "utils": "@/lib/utils",
     "ui": "@/components/ui",
     "lib": "@/lib",
+<<<<<<< HEAD
     "hooks": "@/hooks"
+=======
+    "hooks": "@/hooks",
+    "layouts": "@/layouts"
+>>>>>>> 4f63089 (feat: criação de navbar + esqueleto das páginas)
   },
   "registries": {}
 }

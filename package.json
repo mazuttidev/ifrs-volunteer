@@ -19,6 +19,10 @@
     "node": "^24.8.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+<<<<<<< HEAD
+=======
+    "react-router-dom": "^7.9.1",
+>>>>>>> 4f63089 (feat: criação de navbar + esqueleto das páginas)
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7"
   },
